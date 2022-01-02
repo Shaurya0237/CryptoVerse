@@ -200,9 +200,9 @@ const CoinPage = () => {
             <Button
               variant="outlined"
               style={{
-                width: "100%",
+                width: "30%",
                 height: 40,
-                backgroundColor: inWatchlist ? "#ff0000" : "#EEBC1D",
+                backgroundColor: inWatchlist ? "#ff0000" : "#2FDD92",
               }}
               onClick={inWatchlist ? removeFromWatchlist : addToWatchlist}
             >
