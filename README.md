@@ -1,4 +1,5 @@
 » About :
+
 ➢ A react based web-app for complete information on all th the cryptocurrencies.\
 ➢ Displays Charts.\
 ➢ Coin Information.\
