@@ -29,7 +29,7 @@ const useStyles = makeStyles({
   logout: {
     height: "8%",
     width: "100%",
-    backgroundColor: "#EEBC1D",
+    backgroundColor: "C5D8A4",
     marginTop: 20,
   },
   picture: {
@@ -42,7 +42,7 @@ const useStyles = makeStyles({
   watchlist: {
     flex: 1,
     width: "100%",
-    backgroundColor: "grey",
+    backgroundColor: "white",
     borderRadius: 10,
     padding: 15,
     paddingTop: 10,
@@ -60,7 +60,7 @@ const useStyles = makeStyles({
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
-    backgroundColor: "#EEBC1D",
+    backgroundColor: "#9DC6A7",
     boxShadow: "0 0 3px black",
   },
 });
@@ -159,8 +159,8 @@ export default function UserSidebar() {
                   {user.displayName || user.email}
                 </span>
                 <div className={classes.watchlist}>
-                  <span style={{ fontSize: 15, textShadow: "0 0 5px black" }}>
-                    Watchlist
+                  <span style={{ fontSize: 20 }}>
+                    Favourites : 
                   </span>
                   {coins.map((coin) => {
                     if (watchlist.includes(coin.id))
