@@ -70,7 +70,7 @@ export default function AuthModal() {
       .catch((error) => {
         setAlert({
           open: true,
-          message: error.message,
+          message: error.message `try again later`,
           type: "error",
         });
         return;
