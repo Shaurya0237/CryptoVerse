@@ -86,7 +86,7 @@ export default function CoinsTable() {
           label="Search"
           variant="filled"
           style={{ marginBottom: 20, width: "100%" }}
-          onChange={(e) => setSearch(e.target.value)} /* target search value sent in search state */
+          onChange={(e) => setSearch(e.target.value)}  /* target search value sent in search state */
         />
        
         <TableContainer component={Paper}>
